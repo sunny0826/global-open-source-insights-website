@@ -1,0 +1,11 @@
+{
+  "label": "《开源态势洞察》第一期",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "index"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
