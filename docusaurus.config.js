@@ -13,10 +13,10 @@ const config = {
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://sunny0826.github.io',
+  url: 'https://insights.morethancode.plus',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/global-open-source-insights-website/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -81,6 +81,11 @@ const config = {
           {
             href: 'https://atomgit.com/OpenAtomFoundation/Global-Open-Source-Insights',
             label: 'AtomGit',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/sunny0826/global-open-source-insights-website',
+            label: 'GitHub',
             position: 'right',
           },
         ],
