@@ -65,6 +65,11 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      announcementBar: {
+        id: 'announcementBar-3', // Increment on change
+        // content: `⭐️ If you like Docusaurus, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/facebook/docusaurus">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/docusaurus">Twitter ${TwitterSvg}</a>`,
+        content: `🎉️ <b>开源态势洞察第一期(2023-11)已发布 <a target="_blank" href="https://atomgit.com/OpenAtomFoundation/Global-Open-Source-Insights/raw/master/Insights-First-Edition/%E5%AD%98%E6%A1%A3/%E6%96%87%E7%AB%A0%E5%AD%98%E6%A1%A3/%E5%BC%80%E6%BA%90%E6%80%81%E5%8A%BF%E6%B4%9E%E5%AF%9F-%E7%AC%AC%E4%B8%80%E6%9C%9F.pdf?type=download">点击下载</a></b> 🥳️`,
+      },
       navbar: {
         title: '开源态势洞察',
         logo: {
@@ -85,8 +90,9 @@ const config = {
           },
           {
             href: 'https://github.com/sunny0826/global-open-source-insights-website',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
